@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+#Packages used in the project
+- npm i node-sass
+- npm i react-modal-video
+
+#Application preview
+Using gh-pages, we can view the project on an ongoing basis at the link: https://mgerszendorf.github.io/projekt_testowy/ 
+
+# Getting Started with Create React App 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

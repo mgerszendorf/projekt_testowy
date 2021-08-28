@@ -1,25 +1,30 @@
 import React, { useState } from "react";
 
 function Form(props) {
-  const [checkbox, setCheckbox] = useState(false);
+  const [newCheckbox, setNewCheckbox] = useState(false);
 
   const [data, setData] = useState({
     name: "",
     lastName: "",
     email: "",
     message: "",
-    checkbox: checkbox,
+    checkbox: newCheckbox,
   });
 
   function handleCheckbox() {
-    setCheckbox(!checkbox);
+    setNewCheckbox(!newCheckbox);
   }
 
   function handle(e) {
     const newData = { ...data };
     newData[e.target.id] = e.target.value;
     setData(newData);
-    console.log(newData);
+    // console.log(newData);
+  }
+
+  function submit(e) {
+    e.preventDefault();
+    console.log(data);
   }
 
   return (
@@ -29,7 +34,7 @@ function Form(props) {
           <p>Nie znalazłeś odpowiedniego kontaktu?</p>
           <p>Skorzystaj z formularza.</p>
         </div>
-        <form className="form">
+        <form className="form" onSubmit={(e) => submit(e)}>
           <div className="name_and_last_name">
             <input
               className="name"
@@ -40,6 +45,7 @@ function Form(props) {
               onChange={(e) => handle(e)}
               onFocus={(e) => (e.target.placeholder = "")}
               onBlur={(e) => (e.target.placeholder = "Imię")}
+              required
             />
             <input
               className="last_name"
@@ -50,6 +56,7 @@ function Form(props) {
               onChange={(e) => handle(e)}
               onFocus={(e) => (e.target.placeholder = "")}
               onBlur={(e) => (e.target.placeholder = "Nazwisko")}
+              required
             />
           </div>
           <input
@@ -71,13 +78,14 @@ function Form(props) {
             onChange={(e) => handle(e)}
             onFocus={(e) => (e.target.placeholder = "")}
             onBlur={(e) => (e.target.placeholder = "Treść wiadomości")}
+            required
           />
           <div className="checkbox">
             <input
               type="checkbox"
               name="checkbox"
-              value="true"
               onClick={handleCheckbox}
+              onChange={(e) => handle(e)}
             />
             <p>
               Wyrażam zgodę na przetwarzanie moich danych osobowych w rozumieniu

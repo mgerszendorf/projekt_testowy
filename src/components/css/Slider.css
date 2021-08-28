@@ -165,16 +165,16 @@
     margin-right: 20px;
 }
 
-.slider_left_btn:hover, .slider_right_btn:hover{
+.slider_left_btn:active, .slider_right_btn:active{
     background-color: #fff;
     color: #002841;
 }
 
 .arrows svg:nth-of-type(1){
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
-.arrows svg path:hover{
+.arrows svg path:active{
     fill: #F6C004;
     cursor: pointer;
     transition: .2s;
@@ -223,6 +223,10 @@
         display: none;
     }
 
+    .logo_slider a img{
+        width: 100%;
+    }
+
     .logo_slider.active a img{
         padding: .5rem 0;
         width: 70%;
@@ -256,4 +260,20 @@
     .slider_left_btn, .slider_right_btn{
         padding: .8rem 1.8rem;
     }
+
+    .arrows svg path:hover{
+        fill: #F6C004;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    .arrows svg:nth-of-type(1){
+        margin-right: 1rem;
+    }
+
+    .slider_left_btn:hover, .slider_right_btn:hover{
+        background-color: #fff;
+        color: #002841;
+    }
+
 }

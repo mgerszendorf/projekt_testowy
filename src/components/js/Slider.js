@@ -198,12 +198,12 @@ function Slider(props) {
               </p>
             </div>
             <div className="buttons_slider">
-              <div className="slider_left_btn">
+              <Link to="/zobacz_wiecej" className="slider_left_btn">
                 <p>ZOBACZ WIĘCEJ</p>
-              </div>
-              <div className="slider_right_btn">
+              </Link>
+              <Link to="/umow_się_z_aniolem" className="slider_right_btn">
                 <p>UMÓW SIĘ Z ANIOŁEM</p>
-              </div>
+              </Link>
             </div>
             <div className="arrows">
               <svg

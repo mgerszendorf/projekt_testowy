@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/projekt_testowy/static/css/main.48cf6fc9.chunk.css",
+    "main.js": "/projekt_testowy/static/js/main.385e542d.chunk.js",
+    "main.js.map": "/projekt_testowy/static/js/main.385e542d.chunk.js.map",
+    "runtime-main.js": "/projekt_testowy/static/js/runtime-main.b53816fd.js",
+    "runtime-main.js.map": "/projekt_testowy/static/js/runtime-main.b53816fd.js.map",
+    "static/js/2.30bda3e2.chunk.js": "/projekt_testowy/static/js/2.30bda3e2.chunk.js",
+    "static/js/2.30bda3e2.chunk.js.map": "/projekt_testowy/static/js/2.30bda3e2.chunk.js.map",
+    "static/js/3.a71e5015.chunk.js": "/projekt_testowy/static/js/3.a71e5015.chunk.js",
+    "static/js/3.a71e5015.chunk.js.map": "/projekt_testowy/static/js/3.a71e5015.chunk.js.map",
+    "index.html": "/projekt_testowy/index.html",
+    "static/css/main.48cf6fc9.chunk.css.map": "/projekt_testowy/static/css/main.48cf6fc9.chunk.css.map",
+    "static/js/2.30bda3e2.chunk.js.LICENSE.txt": "/projekt_testowy/static/js/2.30bda3e2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/projekt_testowy/static/media/Muli-SemiBold.dbbd674e.ttf",
+    "static/media/Slider.css": "/projekt_testowy/static/media/Slider.36bcd4f8.png",
+    "static/media/for_whom_img.9dc678a1.png": "/projekt_testowy/static/media/for_whom_img.9dc678a1.png",
+    "static/media/play_btn.180c9d6b.png": "/projekt_testowy/static/media/play_btn.180c9d6b.png",
+    "static/media/what_for_img.b5bb8be9.png": "/projekt_testowy/static/media/what_for_img.b5bb8be9.png",
+    "static/media/with_whom_img.1ab9e09e.png": "/projekt_testowy/static/media/with_whom_img.1ab9e09e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b53816fd.js",
+    "static/js/2.30bda3e2.chunk.js",
+    "static/css/main.48cf6fc9.chunk.css",
+    "static/js/main.385e542d.chunk.js"
+  ]
+}

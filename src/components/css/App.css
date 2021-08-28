@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: MuliBold;
+    src: url(../fonts/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: MuliExtraLight;
+    src: url(../fonts/Muli-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: MuliExtraBold;
+    src: url(../fonts/Muli-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: MuliRegular;
+    src: url(../fonts/Muli-Regular.ttf);
+}
+
+@font-face {
+    font-family: MuliSemiBold;
+    src: url(../fonts/Muli-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MuliExtraBold;
+    src: url(../fonts/Muli-ExtraBold.ttf);
+}
+
+@media all and (min-width: 1024px){
+    *{
+        font-size: 16px;
+    }
+}

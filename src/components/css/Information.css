@@ -1,0 +1,117 @@
+.for_whom_img, .what_for_img, .with_whom_img{
+    display: none;
+}
+
+.information{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.for_whom_txt h2, .what_for_txt h2, .with_whom_txt h2{
+    color: #002841;
+    font-size: 3rem;
+    font-family: MuliExtraBold;
+    margin-bottom: 2.5rem;
+}
+
+.for_whom_txt p, .what_for_txt p, .with_whom_txt p, .for_whom_txt p span{
+    color: #333333;
+    font-size: 1.6rem;
+    font-family: MuliRegular;
+    line-height: 32px;
+}
+
+.for_whom_txt p span {
+    color: #01A7C9;
+}
+
+.for_whom, .what_for, .with_whom{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.with_whom{
+    margin-bottom: 8rem;
+}
+
+.for_whom_txt div{
+    display: flex;
+    align-items: center;
+}
+
+.for_whom_txt h2, .what_for_txt h2, .with_whom_txt h2{
+    margin-bottom: 2.5rem;
+}
+
+.for_whom_txt_p, .with_whom_txt p:nth-of-type(1){
+    margin-bottom: 2.1875rem;
+}
+
+.for_whom_txt div p{
+    margin-left: 3.125rem;
+}
+
+@media all and (min-width: 1024px){
+    .for_whom_img, .what_for_img, .with_whom_img{
+        display: block;
+    }
+
+    .for_whom_txt h2, .what_for_txt h2, .with_whom_txt h2{
+        font-size: 2.25rem;
+    }
+
+    .for_whom_txt p, .what_for_txt p, .with_whom_txt p, .for_whom_txt p span{
+        font-size: 1.125rem;
+    }
+
+    .for_whom_requirements{
+        margin: 4.375rem 0 0.625rem 0;
+    }
+
+    .for_whom_txt, .what_for_txt, .with_whom_txt{
+        width: 50%;
+    }
+
+    .for_whom_txt p, .with_whom_txt p, .what_for_txt p{
+        max-width: 610px;
+    }
+
+    .for_whom_txt, .with_whom_txt{
+        margin-right: 3rem;
+    }
+
+    .what_for_txt{
+        margin-left: 3rem;
+    }
+
+    .for_whom, .what_for, .with_whom{
+        justify-content: space-between;
+        margin-top: 13.125rem;
+    }
+
+    .with_whom{
+        margin-bottom: 13.125rem;
+    }
+
+    .with_whom_img{
+        position: relative;
+    }
+    
+    .btn-primary{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+    
+    .btn-primary img{
+        transition: .2s;
+    }
+    
+    .btn-primary img:hover{
+        transform: scale(1.1);
+    }
+}

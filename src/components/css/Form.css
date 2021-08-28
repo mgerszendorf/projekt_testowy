@@ -1,0 +1,141 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F8FA;
+}
+
+.form_wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.fw_top_txt p:nth-of-type(1), .fw_top_txt p:nth-of-type(2){
+    font-family: MuliSemiBold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.fw_top_txt p:nth-of-type(1){
+    color: #333333;
+}
+
+.fw_top_txt p:nth-of-type(2){
+    color: #7B94A5;
+}
+
+.name, .last_name, .email, .message{
+    background-color: #fff;
+    color: #7B94A5;
+    font-family: MuliRegular;
+    border: none;
+    padding: 1rem;
+    font-size: 12px;
+    box-shadow: -10px 10px 22px 3px rgba(234,234,234,0.86);
+} 
+
+.name:focus, .last_name:focus, .email:focus, .message:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.name_and_last_name{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    max-width: 580px;
+    margin-top: 2rem;
+}
+
+.email{
+    margin-top: 1.25rem;
+    width: 85vw;
+    max-width: 580px;
+}
+
+.message{
+    margin-top: 1.25rem;
+    width: 85vw;
+    height: 163px;
+    max-width: 580px;
+    resize: none;
+}
+
+.last_name{
+    margin-top: 1.25rem;
+}
+
+.fw_top_txt p:nth-of-type(1), .fw_top_txt p:nth-of-type(2){
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.checkbox{
+    display: flex;
+    max-width: 580px;
+    margin-top: 1.5rem;
+}
+
+.checkbox input{
+    cursor: pointer;
+}
+
+.checkbox p {
+    font-size: 10px;
+    color: #002841;
+    margin-left: 10px;
+}
+
+.form_submit{
+    font-family: MuliExtraBold;
+    font-size: 12px;
+    background-color: #00B6DC;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.8rem;
+}
+
+input[type=email]:invalid {
+    border: 2px solid #FF4148;
+    color: #FF4148;
+ }
+
+@media all and (min-width: 1024px){
+    .name_and_last_name{
+        flex-direction: row;
+    }
+
+    .name{
+        margin-right: 32px;
+        width: 100%;
+    }
+
+    .last_name{
+        margin: 0;
+        width: 100%;
+    }
+
+    .fw_top_txt p:nth-of-type(1), .fw_top_txt p:nth-of-type(2){
+        font-size: 18px;
+    }
+
+    .form_submit{
+        font-size: 14px;
+    }
+
+    .name, .last_name, .email, .message{
+        font-size: 15px;
+    } 
+
+    .form_submit{
+        font-size: 14px;
+        width: 118px;
+        height: 50px;
+    }
+}
